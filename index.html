@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="slime.css">
+<div class="game-screen">
+  <h1>スライム育成ゲーム</h1>
+  
+  <!-- キャラクターの表示 -->
+  <div id="pet">👾</div>
+  
+  <!-- ステータスの表示 -->
+  <p>🍙 おなか: <span id="hungerText">100</span> / 100</p>
+  <p>💤 げんき: <span id="energyText">100</span> / 100</p>
+  
+  <!-- お世話ボタン -->
+  <div class="buttons">
+    <button onclick="feed()">ごはんをあげる</button>
+    <button onclick="sleep()">ねむらせる</button>
+  </div>
+</div>
+<script src="slime.js"></script>

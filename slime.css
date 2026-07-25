@@ -1,0 +1,26 @@
+
+
+body {
+  text-align: center; /* 真ん中寄せ */
+  background-color: #f0f8ff; /* 背景色を薄い青に */
+  font-family: sans-serif;
+}
+
+#pet {
+  font-size: 80px; /* キャラクターを大きく */
+  margin: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #ffb6c1;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #ff69b4; /* マウスを乗せたら色を変える */
+}
