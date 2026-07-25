@@ -11,7 +11,7 @@ body {
   margin: 20px;
 }
 
-button {
+button {/*ボタンサイズ変更*/
   font-size: 18px;
   padding: 10px 20px;
   margin: 5px;
