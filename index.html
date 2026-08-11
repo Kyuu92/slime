@@ -2,17 +2,18 @@
 <div class="game-screen">
   <h1>スライム育成ゲーム</h1>
   
-  <!-- キャラクターの表示 -->
+  <!--キャラクターの表示 -->
   <div id="pet">👾</div>
   
-  <!-- ステータスの表示 -->
+  <!-- ステータスを表示 -->
   <p>🍙 おなか: <span id="hungerText">100</span> / 100</p>
   <p>💤 げんき: <span id="energyText">100</span> / 100</p>
   
   <!-- お世話ボタン -->
   <div class="buttons">
     <button onclick="feed()">ごはんをあげる</button>
-    <button onclick="sleep()">ねむらせる</button>
+    <button onclick="sleep()">ねむる</button>
   </div>
 </div>
+<!-- HTML読み込み後にJSを実行し、動作を追加 -->
 <script src="slime.js"></script>

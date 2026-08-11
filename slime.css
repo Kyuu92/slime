@@ -1,24 +1,28 @@
 
 
 body {
-  text-align: center; /* 真ん中寄せ */
+  text-align: center; /* 全体を真ん中寄せで配置 */
   background-color: #f0f8ff; /* 背景色を薄い青に */
   font-family: sans-serif;
 }
 
 #pet {
-  font-size: 80px; /* キャラクターを大きく */
+  font-size: 80px; /* キャラクターを大きく表示して目立たせる */
+  /*上下の余白*/
   margin: 20px;
+
 }
 
 button {/*ボタンサイズ変更*/
   font-size: 18px;
-  padding: 10px 20px;
-  margin: 5px;
-  cursor: pointer;
+  padding: 10px 20px;/*内側の余白*/
+  margin: 5px;/*ボタンとボタンの間隔*/
+  cursor: pointer;/*指マーク*/
+
+  /*ボタンの配色*/
   background-color: #ffb6c1;
-  border: none;
-  border-radius: 10px;
+  border: none;/*枠線を消す*/
+  border-radius: 10px;/*角を丸くする*/
 }
 
 button:hover {
